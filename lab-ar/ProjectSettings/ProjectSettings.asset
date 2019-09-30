@@ -160,10 +160,11 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: edu.ucf.fletchert986.ar-lab
     Standalone: edu.ucf.fletchert986.ar-lab
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 16
+  AndroidMinSdkVersion: 26
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -309,6 +310,8 @@ PlayerSettings:
     - OpenVR
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Standalone
+    m_Enabled: 1
+  - m_BuildTarget: Android
     m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0

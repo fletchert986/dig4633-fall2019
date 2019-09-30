@@ -16,5 +16,8 @@ public class Do_On_Place : MonoBehaviour
         
     }
 
-    void 
+    public void DoPlace()
+    {
+        Debug.Log("Help");
+    }
 }
